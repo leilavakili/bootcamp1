@@ -1,0 +1,51 @@
+.table_section h2{
+  margin-top: 70px;
+}
+.table_section{
+  position: relative;
+}
+.off{
+  color: #fff;
+  background-color: #399e2f;
+  padding: 10px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -10px;
+  animation-name: off-anime;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 8s;
+  position: absolute;
+}
+@keyframes off-anime {
+  0%{
+    left: 0;
+    opacity: 0;
+  }
+  50%{
+    left: 40%;
+    opacity: 1;
+    transform: rotate(1turn);
+  }
+  100%{
+    left: 80%;
+    opacity: 0;
+    transform: rotate(2turn);
+  }
+}
+.price_table{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.price_table th , .price_table td{
+  padding: 5px 0;
+  text-align: center;
+  border: 1px solid #888;
+}
+.price_table th , .price_table tr td:first-child , .price_table tfoot{
+  background-color: #efefef;
+}

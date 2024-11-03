@@ -1,0 +1,15 @@
+.order-form{
+  width: 300px;
+  margin: auto;
+  background-color: rgba(93, 144, 216, 0.11);
+  border: rgba(93, 144, 216, 0.11);
+  border-radius: 5px;
+}
+.order-form label{
+  display: block;
+}
+.order-form input[type=text],
+.order-form input[type=email],
+.order-form select{
+  width: 100%;
+}

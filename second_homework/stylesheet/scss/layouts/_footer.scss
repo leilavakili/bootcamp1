@@ -1,0 +1,19 @@
+footer{
+  padding: 50px 20px;
+}
+.check-list{
+  list-style: none;
+}
+.check-list li::before{
+  content: "\f00c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-left: 8px;
+}
+.footer-box{
+  margin-top: -150px;
+  background-color: #8ED1FC;
+}
+.footer-img{
+  margin-top: -100px;
+}

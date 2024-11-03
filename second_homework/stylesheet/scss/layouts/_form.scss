@@ -1,0 +1,31 @@
+input , select{
+  padding: 10px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.input-group{
+  padding: 10px;
+  margin-top: 5px;
+}
+.inline-group label{
+  display: inline-block;
+}
+#select-file{
+  display: none;
+}
+.select-file-label{
+  color: #fff;
+  background-color: #8ED1FC;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: inline-block !important;
+  transition: all 500ms ease-in-out;
+  margin-bottom: 30px;
+}
+.select-file-label:hover{
+  color: #8ED1FC;
+  background-color: white;
+  border-color: #8ED1FC;
+}
